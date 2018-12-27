@@ -1,2 +1,0 @@
-# ReadingJsonFile
-Created with CodeSandbox
