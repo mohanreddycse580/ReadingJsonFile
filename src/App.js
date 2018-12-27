@@ -26,20 +26,22 @@ class App extends React.Component {
         {this.state.data.map((d, index) => (
           <div className="tableOrder">
             <table>
-              <tr>
-                <th>Id</th>
-                <th>FirstName</th>
-                <th>LastName</th>
-                <th>Gender</th>
-                <th>Email</th>
-              </tr>
-              <tr>
-                <td>{d.id}</td>
-                <td>{d.first_name}</td>
-                <td>{d.last_name}</td>
-                <td>{d.gender}</td>
-                <td>{d.email}</td>{" "}
-              </tr>
+              <tbody>
+                <tr>
+                  <th>Id</th>
+                  <th>FirstName</th>
+                  <th>LastName</th>
+                  <th>Gender</th>
+                  <th>Email</th>
+                </tr>
+                <tr>
+                  <td>{d.id}</td>
+                  <td>{d.first_name}</td>
+                  <td>{d.last_name}</td>
+                  <td>{d.gender}</td>
+                  <td>{d.email}</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         ))}
