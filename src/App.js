@@ -22,18 +22,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Reading Json File </h1>
-
-        {this.state.data.map((d, index) => (
-          <div className="tableOrder">
-            <table>
-              <tbody>
-                <tr>
-                  <th>Id</th>
-                  <th>FirstName</th>
-                  <th>LastName</th>
-                  <th>Gender</th>
-                  <th>Email</th>
-                </tr>
+        <div className="tableOrder">
+          <table>
+            <tbody>
+              <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Gender</th>
+                <th>Email</th>
+              </tr>
+              {this.state.data.map((d, index) => (
                 <tr>
                   <td>{d.id}</td>
                   <td>{d.first_name}</td>
@@ -41,10 +40,10 @@ class App extends React.Component {
                   <td>{d.gender}</td>
                   <td>{d.email}</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-        ))}
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }

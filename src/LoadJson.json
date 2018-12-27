@@ -5,5 +5,26 @@
     "first_name": "Mohan",
     "last_name": "Reddy",
     "email": "smohan.reddy@cts.com"
+  },
+  {
+    "id": 2,
+    "gender": "Male",
+    "first_name": "Ramesh",
+    "last_name": "Reddy",
+    "email": "ramesh.r@cts.com"
+  },
+  {
+    "id": 3,
+    "gender": "female",
+    "first_name": "sita",
+    "last_name": "rathod",
+    "email": "sita.r@cts.com"
+  },
+  {
+    "id": 4,
+    "gender": "Male",
+    "first_name": "krishna",
+    "last_name": "N",
+    "email": "krishna.n@cts.com"
   }
 ]
