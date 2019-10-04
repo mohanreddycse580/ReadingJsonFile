@@ -34,5 +34,12 @@
     "first_name": "krishna",
     "last_name": "N",
     "email": "krishna.n@cts.com"
+  },
+  {
+    "id": 6,
+    "gender": "Male",
+    "first_name": "krishna",
+    "last_name": "N",
+    "email": "krishna.n@cts.com"
   }
 ]
